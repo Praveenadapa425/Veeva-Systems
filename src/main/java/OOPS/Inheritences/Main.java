@@ -13,5 +13,11 @@ public class Main {
 
         System.out.println(b3.l +" "+b3.weight);
 
+
+        Box b4 = new BoxWeight(1,33,5,45);
+        System.out.println(b4.w);     // we can access parent class variables
+   //   System.out.println(b4.weight);  // we can't  (X)
+        //when parent class is refering to child class
+
     }
 }
